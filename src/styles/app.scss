@@ -10,3 +10,28 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
 }
+
+.navbar {
+    .navbar-default {
+        // background-color: transparent;
+        border-color: transparent;
+    }
+    .navbar-brand {
+        img {
+            height: 2em;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                text-transform: uppercase;
+                opacity: 0.7;
+                font-weight: 500;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
