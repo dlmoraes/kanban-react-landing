@@ -8,3 +8,16 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', sans-serif; }
+
+.navbar .navbar-default {
+  border-color: transparent; }
+
+.navbar .navbar-brand img {
+  height: 2em; }
+
+.navbar .navbar-nav li a {
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-weight: 500; }
+  .navbar .navbar-nav li a:hover {
+    color: #fff; }
