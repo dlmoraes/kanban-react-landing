@@ -9,7 +9,8 @@ h5,
 h6 {
   font-family: 'Open Sans', sans-serif; }
 
-.navbar .navbar-default {
+.navbar.navbar-default {
+  background-color: transparent;
   border-color: transparent; }
 
 .navbar .navbar-brand img {
@@ -18,6 +19,49 @@ h6 {
 .navbar .navbar-nav li a {
   text-transform: uppercase;
   opacity: 0.7;
-  font-weight: 500; }
+  font-weight: 600;
+  color: white;
+  font-size: 1.1em; }
   .navbar .navbar-nav li a:hover {
-    color: #fff; }
+    color: #fff;
+    opacity: 1;
+    transition: all 0.3s; }
+
+.header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background: linear-gradient(to right, #02d4a7, #01b4a0);
+  color: white;
+  padding: 11em 0;
+  height: 600px; }
+  .header h1 {
+    font-size: 4.3em; }
+  .header h2 {
+    font-weight: 300; }
+
+.btn-header-custom {
+  color: #0bb297;
+  background: #fff;
+  border: 1px solid #fff;
+  margin: 1.5em 0;
+  transition: all 0.3s; }
+  .btn-header-custom:hover, .btn-header-custom:focus {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff; }
+
+.header-svg {
+  position: relative; }
+  .header-svg .sep {
+    top: -99px;
+    bottom: auto;
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 7.2em; }
+    .header-svg .sep path {
+      fill: #fff; }
+  .header-svg svg:not(:root) {
+    overflow: hidden; }
