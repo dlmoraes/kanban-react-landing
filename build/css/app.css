@@ -139,6 +139,25 @@ h6 {
     font-weight: 300;
     font-size: 1.3em; }
 
+#contact {
+  padding: 7.5em 0; }
+  #contact h2 {
+    font-size: 5em;
+    font-weight: 600;
+    color: #212121; }
+  #contact h3 {
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #727272;
+    padding: 1.2em 0; }
+  #contact .form-control {
+    border-radius: 0;
+    border: 1px solid #727272;
+    padding: 1.3em; }
+  #contact button {
+    background: #04c89f;
+    border-color: #04c89f; }
+
 .separator {
   background: #04c89f;
   height: 8em;
