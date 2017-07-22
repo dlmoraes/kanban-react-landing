@@ -10,7 +10,7 @@ h6 {
   font-family: 'Open Sans', sans-serif; }
 
 .navbar.navbar-default {
-  background-color: transparent;
+  background: linear-gradient(to right, #02d4a7, #01b4a0);
   border-color: transparent; }
 
 .navbar .navbar-brand img {
