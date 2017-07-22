@@ -71,6 +71,7 @@ h6 {
 
 .header-svg {
     position: relative;
+    border: 1px solid #0bb297;
     .sep {
         top: -99px;
         bottom: auto;
@@ -85,6 +86,39 @@ h6 {
     }
     svg:not(:root) {
         overflow: hidden;
+    }
+}
+
+#about {
+    padding: 7em 0;
+    h1 {
+        color: #212121;
+        font-weight: 600;
+        font-size: 5em;
+    }
+    h3 {
+        color: #727272;
+        font-weight: 300;
+        font-size: 2.2em;
+        text-transform: uppercase;
+    }
+    p {
+        font-weight: 300;
+        font-size: 1.4em;
+        color: #727272;
+        padding: 1.4em 0;
+        text-align: justify;
+    }
+    a {
+        background: #04c89f;
+        border-color: #04c89f;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 12%;
+        color: white;
+    }
+    img {
+        padding: 9.5em 0;
     }
 }
 
