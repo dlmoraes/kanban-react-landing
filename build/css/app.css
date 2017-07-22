@@ -94,6 +94,56 @@ h6 {
   #about img {
     padding: 9.5em 0; }
 
+#features {
+  padding: 7.5em 0; }
+  #features h2 {
+    color: #212121;
+    font-weight: 600;
+    font-size: 5em; }
+  #features ul {
+    list-style: none;
+    padding: 0; }
+    #features ul li {
+      font-size: 1.5em;
+      color: #727272;
+      font-weight: 300;
+      margin-bottom: 1em; }
+      #features ul li i {
+        color: #25e2bb; }
+  #features img {
+    padding: 6em 0; }
+
+#features-info .info-1 {
+  background: linear-gradient(to left, #02d4a7, #01b4a0);
+  text-align: center;
+  padding: 5em 0; }
+  #features-info .info-1 h3 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3.5em; }
+  #features-info .info-1 p {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.3em; }
+
+#features-info .info-2 {
+  background: #ededed;
+  text-align: center;
+  padding: 5em 0; }
+  #features-info .info-2 h3 {
+    color: #212121;
+    font-weight: 600;
+    font-size: 3.5em; }
+  #features-info .info-2 p {
+    color: #212121;
+    font-weight: 300;
+    font-size: 1.3em; }
+
+.separator {
+  background: #04c89f;
+  height: 8em;
+  width: 100%; }
+
 .footer {
   background: #ededed; }
   .footer img {
